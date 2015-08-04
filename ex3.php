@@ -9,7 +9,8 @@ Listing avec des requêtes Composées
 Dans ce code on utilise un requete avec jointure .
 
 */
-
+//tralalla
+$azeaze = "aqzaze";
 $connexion = new PDO("mysql:dbname=base1;host=localhost;", "root" , "");// à adapter selon le nom de la base crée
 $statement = $connexion->query("SELECT * FROM matiere ORDER BY id_matiere ASC;");
 $matieres = $statement->fetchAll();
